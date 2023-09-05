@@ -1,0 +1,70 @@
+.header{
+    background-color: maroon;
+    height: 40px
+}
+
+
+.carousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: blue;
+}
+
+.carousel .item{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+    margin: 10px 700px;
+  }
+
+  .nextto{
+    display: inline-block;
+    width: 30%
+  }
+
+#videobox{
+    width:150px; 
+    height:75px; 
+    background-color: blue; 
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 10px;
+    flex-grow: 1;
+}
+
+  #circle {
+    width: 25px;
+    height: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background-color: blue;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .flexbox-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.pic:hover{
+    color: black;
+}
+
+#voice a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+}
